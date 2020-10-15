@@ -46,3 +46,19 @@ you should know which screen you would like it to be on,
 so you should rename or delete the original image and copy
 your own to the desired directory renamed 
 with the name that represents the position she should be in.
+
+# Instalation
+
+The installation of the program is very simple.
+
+1) Clone the repository within your (home)
+		
+		- git clone https://github.com/hype-moment/PlusWall.git
+
+2) Give him the following
+
+		- echo "sh ~/PlusWall/Aliens/plus.sh &" >> ~/.profile
+
+This command will create the ".profile" 
+file in your home if it doesn't exist, if it already exists,
+the command will create the responsible line so that everything goes smoothly.
