@@ -76,3 +76,7 @@ To make the process faster, you can create an alias in your .bashrc or .zshrc
 with this alias, just give the command (pluswall) that the program will open.
 
 You can change (pluswall) to any other name you want.
+
+# Animes
+
+![alt text](https://github.com/hype-moment/PlusWall/blob/main/Readme-image/Animes.png)
