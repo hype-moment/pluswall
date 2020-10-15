@@ -22,29 +22,29 @@
 Menu(){
 
 clear
-echo -e "▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂"
+echo -e "▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂"
 echo -e ""
 echo -e "\e[1;31m    ⬛\e[m     ⬛   ⬛   ⬛ \e[1;31m ⬛▀▀▀▀\e[m⬛  ⬛     ⬛"
 echo -e "\e[1;31m  ⬛⬛⬛ \e[m  ⬛   ⬛   ⬛  ⬛⬛⬛⬛  ⬛     ⬛"
 echo -e "\e[1;31m    ⬛\e[m     ⬛⬛⬛⬛⬛⬛  ⬛    ⬛  ⬛⬛⬛ ⬛⬛⬛"
 echo -e "\e[1;31m          ━═━═━═━═━═━━═━═━═━═━═━═━═━═━═━═━═━═━═━═━\e[m"
-echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
-echo -e "1) Animes    6) Gentoo   11) LOL   16)FakeBlur-MX"
-echo -e "2) Aliens    7) Linux              17)FakeBlur-Jinx"
-echo -e "3) Animals   8) Panorama"
-echo -e "4) Arch      9) Surreal"
-echo -e "5) Debian   10) Simple"
-echo -e "▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂"
+echo -e "1) Animes   6) Gentoo    11) LOL      16)FakeBlur-MX"
+echo -e "2) Aliens   7) Linux     12) Nature   17)FakeBlur-Jinx"
+echo -e "3) Cars     8) Panorama"
+echo -e "4) Arch     9) Surreal"
+echo -e "5) Debian  10) Simple"
+echo -e "▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂"
 echo -e "Restart the session for the effects to be applied."
-echo -e "───────────────────────────────────────────────────"
+echo -e "─────────────────────────────────────────────────────────"
 read opc
 
 case $opc in
 
 	1) sed -i 's/l\/.*/l\/Animes\/plus.sh \&/' ~/.profile	;;
-	2) sed -i 's/l\/.*/l\/Aliens\/workpapel.sh \&/' ~/.profile	;;
-	3)	;;
+	2) sed -i 's/l\/.*/l\/Aliens\/plus.sh \&/' ~/.profile	;;
+	3) sed -i 's/l\/.*/l\/Cars\/plus.sh \&/' ~/.profile	;;
 	4) sed -i 's/l\/.*/l\/Arch\/plus.sh \&/' ~/.profile	;;
 	5) sed -i 's/l\/.*/l\/Debian\/plus.sh \&/' ~/.profile	;;
 	6) sed -i 's/l\/.*/l\/Gentoo\/plus.sh \&/' ~/.profile	;;
@@ -53,6 +53,7 @@ case $opc in
 	9) sed -i 's/l\/.*/l\/Surreal\/plus.sh \&/' ~/.profile	;;
    10) sed -i 's/l\/.*/l\/Simple\/plus.sh \&/' ~/.profile 	;;
    11) sed -i 's/l\/.*/l\/LOL\/plus.sh \&/' ~/.profile 		;;
+   12) sed -i 's/l\/.*/l\/Nature\/plus.sh \&/' ~/.profile ;;
    16) sed -i 's/l\/.*/l\/FakeBlur\/fakeblur.sh \&/' ~/.profile 	;;
    17) sed -i 's/l\/.*/l\/FakeBlur\/fakeblurjinx.sh \&/' ~/.profile	;;
 esac	
