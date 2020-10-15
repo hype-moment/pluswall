@@ -53,12 +53,26 @@ The installation of the program is very simple.
 
 1) Clone the repository within your (home)
 		
-		- git clone https://github.com/hype-moment/PlusWall.git
+		 git clone https://github.com/hype-moment/PlusWall.git
 
-2) Give him the following
+2) Give the command at the terminal
 
-		- echo "sh ~/PlusWall/Aliens/plus.sh &" >> ~/.profile
+		 echo "sh ~/PlusWall/Aliens/plus.sh &" >> ~/.profile
 
 This command will create the ".profile" 
 file in your home if it doesn't exist, if it already exists,
 the command will create the responsible line so that everything goes smoothly.
+
+# Use
+
+You can run the command directly on the terminal
+
+		sh ~/PlusWall/plus-wall.sh
+
+To make the process faster, you can create an alias in your .bashrc or .zshrc
+
+		alias pluswall="sh ~/PlusWall/plus-wall.sh"
+
+with this alias, just give the command (pluswall) that the program will open.
+
+You can change (pluswall) to any other name you want.
