@@ -2,13 +2,18 @@
 
 while true; do
 
-#### Get workspace herbstluftwm
+### If you use the herbstluftwm window manager,
+### then uncomment the option below and commit the others,
+### if they are uncommented
+### Get workspace herbstluftwm
 tag=$(herbstclient list_monitors | awk '{print $5}' | sed 's/"//g')
 
+### If you use the i3wm window manager,
+### then uncomment the option below and commit the others,
+### if they are uncommented
 ### Get workspace i3
-#tag=$(i3-msg -t get_workspaces \
-#  | jq '.[] | select(.focused==true).name' \
-#  | cut -d"\"" -f2)
+# tag=$(i3-msg -t get_workspaces | jq '.[] | select(.focused==true).name' | cut -d"\"" -f2)
+
 
 # Options
 
