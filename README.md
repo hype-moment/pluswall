@@ -44,4 +44,5 @@ by placing the image (8.png) in the first option and the image (0.png) in the ei
  If you have a favorite image and would like to use it,
 you should know which screen you would like it to be on,
 so you should rename or delete the original image and copy
-your own to the desired directory renamed with the name that represents the position she should be in.
+your own to the desired directory renamed 
+with the name that represents the position she should be in.
