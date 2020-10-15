@@ -33,14 +33,18 @@ as it starts only once, and can be used in all window managers.
 # How to change the display order of the screens
 
  The program was built for simple and easy to modify.
+ 
  It is divided into folders and each folder has its own configuration file,
 thus making each option configurable independently, without modifying the others,
 making the probability of errors minimal.
+ 
  If you don't like the order in which images are displayed, you can easily change that.
+ 
  The images are arranged from (0 to 9) with 0 being the first working area and 9 being the last.
 Assuming you want to put the eighth image on the first screen, 
 just change the order inside the "case" 
 by placing the image (8.png) in the first option and the image (0.png) in the eighth position.
+ 
  If you have a favorite image and would like to use it,
 you should know which screen you would like it to be on,
 so you should rename or delete the original image and copy
