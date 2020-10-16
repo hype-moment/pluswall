@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #======================================================
-# Version = 1.7
+# Version = 1.1
 # Creator = Diego Cesare <diegocesare300491@gmail.com>
 # License = GPL v3
 #======================================================
@@ -12,7 +12,7 @@ wget -O status https://github.com/hype-moment/PlusWall/blob/main/PlusWall/plus-w
 
 Version=$(cat status | grep Version | sed 's/[-=#" a-z A-Z <>/;"&"(){}\$[]//g;s/.*\.//g' | sed -n 1p)
 
-if [[ $Version > 2 ]]; then
+if [[ $Version > 1 ]]; then
 	echo -e "\e[1;32mNew version available\e[m\n\e[1;31mCheck the news at\e[m\nhttps://github.com/hype-moment/PlusWall"
 else
 	echo ""
