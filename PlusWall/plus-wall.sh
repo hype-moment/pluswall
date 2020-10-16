@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+#======================================================
+# Version = 1.1
+# Creator = Diego Cesare <diegocesare300491@gmail.com>
+# License = GPL v3
+#======================================================
+
 Menu(){
 
 clear
