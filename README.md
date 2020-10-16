@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/hype-moment/PlusWall/blob/main/Readme-image/pluswall.png)
 
-<p align="left">
+<p align="right">
   <img src="https://img.shields.io/badge/Maintained%3F-Yes-blueviolet?style=flat-square">
   <img src="https://img.shields.io/github/license/adi1090x/rofi?style=flat-square">
  </p>
