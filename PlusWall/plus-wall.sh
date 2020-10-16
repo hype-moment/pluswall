@@ -13,9 +13,9 @@ echo -e "━━━━━━━━━━━━━━━━━━━━━━━�
 
 echo -e "1) Animes   6) Gentoo    11) LOL      16) FakeBlur-MX"
 echo -e "2) Aliens   7) Linux     12) Nature   17) FakeBlur-Jinx"
-echo -e "3) Cars     8) Panorama               18) FakeBlur-No Man's Sky"
-echo -e "4) Arch     9) Surreal"
-echo -e "5) Debian  10) Simple"
+echo -e "3) Cars     8) Panorama  13) Soon     18) FakeBlur-No Man's Sky"
+echo -e "4) Arch     9) Surreal   14) Soon     19) Soon"
+echo -e "5) Debian  10) Simple    15) Soon     20) Soon"
 echo -e "▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂"
 echo -e "Restart the session for the effects to be applied."
 echo -e "──────────────────────────────────────────────────────────────"
