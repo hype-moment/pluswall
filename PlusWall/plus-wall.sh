@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #======================================================
-# Version = 1.4
+# Version = 1.5
 # Creator = Diego Cesare <diegocesare300491@gmail.com>
 # License = GPL v3
 #======================================================
