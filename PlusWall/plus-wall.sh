@@ -6,6 +6,20 @@
 # License = GPL v3
 #======================================================
 
+GetVersion(){
+
+wget -O version https://github.com/hype-moment/PlusWall/blob/main/PlusWall/plus-wall.sh 2> /dev/null
+
+Version=$(cat version | grep Version | sed 's/[-=#" a-z A-Z <>/]//g;s/.*\.//g')
+
+if [[ $Version > 1 ]]; then
+	echo -e "\e[1;32mNew version available\e[m"
+fi
+
+rm version
+
+}
+
 Menu(){
 
 clear
