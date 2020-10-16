@@ -14,8 +14,6 @@ Version=$(cat status | grep Version | sed 's/[-=#" a-z A-Z <>/;"&"(){}\$[]//g;s/
 
 if [[ $Version > 1 ]]; then
 	echo -e "\e[1;32mNew version available\e[m\n\e[1;31mCheck the news at\e[m\nhttps://github.com/hype-moment/PlusWall"
-else
-	echo ""
 fi
 
 rm version 2> /dev/null
