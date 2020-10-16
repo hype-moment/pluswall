@@ -1,24 +1,5 @@
 #!/usr/bin/env bash
 
-#==============================================================
-# name: PlusWall
-# version: 1.0
-# author: Diego Cesare <diegocesare30049@gmail.com>
-# describe: Changes the background dynamically
-# license: GNU GPLv3
-#
-# About the project
-# =================
-# This script is only intended to change desktop backgrounds,
-# but it does it dynamically and automatically.
-# The backgrounds are divided into categories,
-# each responsible for a different package of images,
-# some have the function of changing the plan of each desktop,
-# others the function of blurring the background image as
-# soon as a window is opened,
-# and others to change the background as the day progresses.
-#==============================================================
-
 Menu(){
 
 clear
