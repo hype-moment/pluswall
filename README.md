@@ -2,6 +2,14 @@
 
 ![alt text](https://github.com/hype-moment/PlusWall/blob/main/Readme-image/pluswall.png)
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-blueviolet?style=flat-square">
+  <img src="https://img.shields.io/github/license/adi1090x/rofi?style=flat-square">
+  <img src="https://img.shields.io/github/stars/adi1090x/rofi?color=red&style=flat-square">
+  <img src="https://img.shields.io/github/forks/adi1090x/rofi?style=flat-square">
+  <img src="https://img.shields.io/github/issues/adi1090x/rofi?style=flat-square">
+</p>
+
 # Presentation
 
  This project is a pass of my free time.
