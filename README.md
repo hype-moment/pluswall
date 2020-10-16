@@ -97,6 +97,11 @@ The installation of the program is very simple.
 
 		cp -r ~/pluswall/PlusWall ~
 
+4) ***Optional*** You can delete the "pluswall" folder with your file manager,  
+or give the command in the terminal.
+
+		rm -rf ~/pluswall
+
 This command will create the ".profile" 
 file in your home if it doesn't exist, if it already exists,
 the command will create the responsible line so that everything goes smoothly.
