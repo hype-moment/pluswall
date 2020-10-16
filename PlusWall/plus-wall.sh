@@ -10,9 +10,9 @@ GetVersion(){
 
 wget -O version https://github.com/hype-moment/PlusWall/blob/main/PlusWall/plus-wall.sh 2> /dev/null
 
-Version=$(cat version | grep Version | sed 's/[-=#" a-z A-Z <>/]//g;s/.*\.//g')
+Version=$(cat version | grep Version | sed 's/[-=#" a-z A-Z <>/;"&"(){}\$[]//g;s/.*\.//g' | sed -n 1p)
 
-if [[ $Version > 1 ]]; then
+if [[ $Version > 0 ]]; then
 	echo -e "\e[1;32mNew version available\e[m"
 fi
 
