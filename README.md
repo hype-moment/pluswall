@@ -74,7 +74,7 @@ Are they
 ###### 👉 jq
 ###### 👉 wmctrl
 
-You need to install the packages (feh, xdotool, wmctrl and jq)
+***You need to install the packages (feh, xdotool, wmctrl and jq)***
 
 # Instalation
 
