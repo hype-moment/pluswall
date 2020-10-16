@@ -69,10 +69,10 @@ Because it is designed for more than one window manager,
 the program requires some dependencies for it to work correctly.
 Are they
 
-		feh 
-		xdotool
-		jq
-		wmctrl
+###### 👉 feh 
+###### 👉 xdotool
+###### 👉 jq
+###### 👉 wmctrl
 
 You need to install the packages (feh, xdotool, wmctrl and jq)
 
