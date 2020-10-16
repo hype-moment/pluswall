@@ -57,15 +57,12 @@ Because it is designed for more than one window manager,
 the program requires some dependencies for it to work correctly.
 Are they
 
-		feh (Which will change the backgrounds)
-		
-		xdotool (For some window managers,
-		there is no native way to capture information from desktops,
-		so you need to use "xdotool" for that.)
+		feh 
+		xdotool
+		jq
+		wmctrl
 
-		jq (In some cases you need to do some filters and calculations)
-
-You need to install the packages (feh, xdotool and jq)
+You need to install the packages (feh, xdotool, wmctrl and jq)
 
 # Instalation
 
@@ -96,23 +93,6 @@ To make the process faster, you can create an alias in your .bashrc or .zshrc
 with this alias, just give the command (pluswall) that the program will open.
 
 You can change (pluswall) to any other name you want.
-
-# Use in different window managers
-
-As stated earlier, the program is simple and configurable, 
-and can be used in different window managers, 
-but I have not yet implemented a high-level 
-way for the program to automatically recognize the current window manager. 
-
-Bearing in mind the window manager you are using you should edit the file.
-
-# Example
-
-		vim ~/PlusWall/Animes/plus.sh
-
-Uncomment the line at the beginning of the file corresponding to your window manager,
-and comment out the others, 
-if window manager is already uncommented it is not necessary to perform this step
 
 # Animes
 
