@@ -93,6 +93,10 @@ The installation of the program is very simple.
 
 		 echo "sh ~/PlusWall/Aliens/plus.sh &" >> ~/.profile
 
+3) Enter the "pluswall" directory and copy the "PlusWall" directory to your home
+
+		cp -r ~/pluswall/PlusWall ~
+
 This command will create the ".profile" 
 file in your home if it doesn't exist, if it already exists,
 the command will create the responsible line so that everything goes smoothly.
