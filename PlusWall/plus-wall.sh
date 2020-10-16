@@ -1,23 +1,24 @@
 #!/usr/bin/env bash
 
 #======================================================
-# Version = 1.3
+# Version = 1.4
 # Creator = Diego Cesare <diegocesare300491@gmail.com>
 # License = GPL v3
 #======================================================
 
 GetVersion(){
 
-wget -O version https://github.com/hype-moment/PlusWall/blob/main/PlusWall/plus-wall.sh 2> /dev/null
+wget -O status https://github.com/hype-moment/PlusWall/blob/main/PlusWall/plus-wall.sh 2> /dev/null
 
-Version=$(cat version | grep Version | sed 's/[-=#" a-z A-Z <>/;"&"(){}\$[]//g;s/.*\.//g' | sed -n 1p)
+Version=$(cat status | grep Version | sed 's/[-=#" a-z A-Z <>/;"&"(){}\$[]//g;s/.*\.//g' | sed -n 1p)
 
-if [[ $Version > 0 ]]; then
-	echo -e "\e[1;32mNew version available\e[m"
+if [[ $Version > 2 ]]; then
+	echo -e "\e[1;32mNew version available\e[m\n\e[1;31mCheck the news at\e[m\nhttps://github.com/hype-moment/PlusWall"
+else
+	echo ""
 fi
 
-rm version
-
+rm version 2> /dev/null
 }
 
 Menu(){
