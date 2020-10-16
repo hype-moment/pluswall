@@ -37,6 +37,7 @@ case $opc in
    12) sed -i 's/l\/.*/l\/Nature\/plus.sh \&/' ~/.profile ;;
    16) sed -i 's/l\/.*/l\/FakeBlur\/fakeblur.sh \&/' ~/.profile 	;;
    17) sed -i 's/l\/.*/l\/FakeBlur\/fakeblurjinx.sh \&/' ~/.profile	;;
+   18) sed -i 's/l\/.*/l\/FakeBlur\/fakeblursky.sh \&/' ~/.profile	;;
 esac	
 }
 
