@@ -53,7 +53,7 @@ with the name that represents the position she should be in.
 
 # Supported window managers
 
-# i3 Herbstluftwm Bspw Qtile Openbox Fluxbox Pekwm Jwm
+# 👉 i3 👉 Herbstluftwm 👉 Bspw 👉 Qtile 👉 Openbox 👉 Fluxbox 👉 Pekwm 👉 Jwm
 
 # Dependencies
 
