@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #======================================================
-# Version = 1.1
+# Version = 2.1
 # Creator = Diego Cesare <diegocesare300491@gmail.com>
 # License = GPL v3
 #======================================================
@@ -20,8 +20,8 @@ rm version 2> /dev/null
 }
 
 Menu(){
-
 clear
+GetVersion
 echo -e "▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂"
 echo -e ""
 echo -e "\e[1;31m    ⬛\e[m     ⬛   ⬛   ⬛ \e[1;31m ⬛▀▀▀▀\e[m⬛  ⬛     ⬛"
