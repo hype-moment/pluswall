@@ -120,6 +120,32 @@ with this alias, just give the command (pluswall) that the program will open.
 
 You can change (pluswall) to any other name you want.
 
+# Updates
+
+The program may change over time.  
+But the program itself will notify you when a new update is available
+
+![alt text](https://github.com/hype-moment/PlusWall/blob/main/Readme-image/ups.png)
+
+# How to update!
+
+The program does not yet have a tool to update it,  
+so you will have to do it manually.  
+Rename the "PlusWall" directory to "PlusBackup",
+clone the repository again and follow the installation step by step,  
+if everything went well the program will be updated.
+
+***Attention***
+You do not need to modify the .profile again,  
+so in the update process the .profile step can be left out.
+
+# I didn't like the new update
+
+If for some reason you don't like the new version of the program,  
+no problem, if you follow the recommendation from the previous step,  
+and renamed the directory "PlusWall" you will have the old program still installed,  
+just delete the new version and rename the old one again for "PlusWall".
+
 # Animes
 
 ![alt text](https://github.com/hype-moment/PlusWall/blob/main/Readme-image/Animes.png)
