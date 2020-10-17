@@ -114,6 +114,8 @@ and put the command (source ~ / .profile) at the top of the file.
 Failure to do so may cause the file to malfunction,  
 or in extreme cases an infinite loop when logging into the session.***
 
+![alt text](https://github.com/hype-moment/PlusWall/blob/main/Readme-image/xinit.png)
+
 # Use
 
 You can run the command directly on the terminal
