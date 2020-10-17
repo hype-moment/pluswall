@@ -146,6 +146,11 @@ no problem, if you follow the recommendation from the previous step,
 and renamed the directory "PlusWall" you will have the old program still installed,  
 just delete the new version and rename the old one again for "PlusWall".
 
+# FakeBlur ***MX***
+***Blurs the background image when opening a window***
+
+![alt text](https://github.com/hype-moment/PlusWall/blob/main/Readme-image/mx.png)
+
 # FakeBlur ***No Man's Sky***
 ***Blurs the background image when opening a window***
 
