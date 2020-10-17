@@ -106,7 +106,7 @@ or give the command in the terminal.
 
 		rm -rf ~/pluswall
 
-# Important
+# ⛔ Important ⛔ 
 
 ***If you do not use a login manager, but the .xinitrc,  
 you must after creating the .profile you must edit the .xinitrc  
