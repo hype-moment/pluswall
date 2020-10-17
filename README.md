@@ -106,7 +106,7 @@ or give the command in the terminal.
 
 		rm -rf ~/pluswall
 
-# ⛔ Important ⛔ 
+![alt text](https://github.com/hype-moment/PlusWall/blob/main/Readme-image/important.png)
 
 ***If you do not use a login manager, but the .xinitrc,  
 you must after creating the .profile edit the .xinitrc  
