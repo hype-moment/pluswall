@@ -146,6 +146,10 @@ no problem, if you follow the recommendation from the previous step,
 and renamed the directory "PlusWall" you will have the old program still installed,  
 just delete the new version and rename the old one again for "PlusWall".
 
+# FakeBlur ###### No Man's Sky
+
+![alt text](https://github.com/hype-moment/PlusWall/blob/main/Readme-image/sky.png)
+
 # Animes
 
 ![alt text](https://github.com/hype-moment/PlusWall/blob/main/Readme-image/Animes.png)
