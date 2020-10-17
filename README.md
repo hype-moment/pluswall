@@ -93,6 +93,10 @@ The installation of the program is very simple.
 
 		 echo "sh ~/PlusWall/Aliens/plus.sh &" >> ~/.profile
 
+This command will create the ".profile" 
+file in your home if it doesn't exist, if it already exists,
+the command will create the responsible line so that everything goes smoothly.
+
 3) Enter the "pluswall" directory and copy the "PlusWall" directory to your home
 
 		cp -r ~/pluswall/PlusWall ~
@@ -106,13 +110,9 @@ or give the command in the terminal.
 
 ***If you do not use a login manager, but the .xinitrc,  
 you must after creating the .profile you must edit the .xinitrc  
-and put the command source ~ / .profile at the top of the file.
+and put the command (source ~ / .profile) at the top of the file.
 Failure to do so may cause the file to malfunction,  
 or in extreme cases an infinite loop when logging into the session.***
-
-This command will create the ".profile" 
-file in your home if it doesn't exist, if it already exists,
-the command will create the responsible line so that everything goes smoothly.
 
 # Use
 
