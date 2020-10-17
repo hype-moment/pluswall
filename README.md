@@ -109,7 +109,7 @@ or give the command in the terminal.
 # ⛔ Important ⛔ 
 
 ***If you do not use a login manager, but the .xinitrc,  
-you must after creating the .profile you must edit the .xinitrc  
+you must after creating the .profile edit the .xinitrc  
 and put the command (source ~ / .profile) at the top of the file.
 Failure to do so may cause the file to malfunction,  
 or in extreme cases an infinite loop when logging into the session.***
