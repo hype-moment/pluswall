@@ -9,3 +9,4 @@ Dependencies
 feh
 wget
 wmctrl
+jq
