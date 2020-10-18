@@ -31,8 +31,7 @@ wmctrl -d | grep '*' | awk '{print $1 $2}' | sed 's/*/-/'
 fi
 }
 
-# Get workspace herbstluftwm
-tag=$(herbstclient list_monitors | awk '{print $5}' | sed 's/"//g')
+while true; do
 
 GetWmName
 
