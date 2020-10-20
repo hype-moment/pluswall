@@ -42,7 +42,7 @@ echo -e "───────────────────────�
 read opc
 
 case $opc in
-
+	
 	1) sed -i 's/l\/.*/l\/Animes\/plus.sh \&/' ~/.profile	;;
 	2) sed -i 's/l\/.*/l\/Aliens\/plus.sh \&/' ~/.profile	;;
 	3) sed -i 's/l\/.*/l\/Cars\/plus.sh \&/' ~/.profile	;;
