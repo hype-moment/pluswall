@@ -34,7 +34,7 @@ echo -e "1) Animes   6) Gentoo    11) LOL      16) FakeBlur-MX"
 echo -e "2) Aliens   7) Linux     12) Nature   17) FakeBlur-Jinx"
 echo -e "3) Cars     8) Panorama  13) Girls    18) FakeBlur-No Man's Sky"
 echo -e "4) Arch     9) Surreal   14) Hero     19) Time-Smile"
-echo -e "5) Debian  10) Simple    15) Soon     20) Code"
+echo -e "5) Debian  10) Simple    15) Dice     20) Code"
 echo -e "▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂"
 echo -e "Restart the session for the effects to be applied."
 echo -e "──────────────────────────────────────────────────────────────"
@@ -56,6 +56,7 @@ case $opc in
    12) sed -i 's/l\/.*/l\/Nature\/plus.sh \&/' ~/.profile ;;
    13) sed -i 's/l\/.*/l\/Girls\/plus.sh \&/' ~/.profile ;;
    14) sed -i 's/l\/.*/l\/Hero\/plus.sh \&/' ~/.profile ;;
+   15) sed -i 's/l\/.*/l\/Dice\/Dice.sh \&/' ~/.profile ;;
    16) sed -i 's/l\/.*/l\/FakeBlur\/fakeblur.sh \&/' ~/.profile 	;;
    17) sed -i 's/l\/.*/l\/FakeBlur\/fakeblurjinx.sh \&/' ~/.profile	;;
    18) sed -i 's/l\/.*/l\/FakeBlur\/fakeblursky.sh \&/' ~/.profile	;;
