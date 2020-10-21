@@ -13,7 +13,6 @@ wget -O status https://github.com/hype-moment/PlusWall/blob/main/PlusWall/plus-w
 Version=$(cat status | grep "Version = " | sed 's/.* = //g;s/<\/.*//g' | sed -n 1p)
 if [[ $Version > 1.0 ]]; then
 	echo -e "\e[1;32mNew version available \e[1;36m$Version\e[m\e[m\n\e[1;31mCheck the news at\e[m\nhttps://github.com/hype-moment/PlusWall"
-	echo -e "New category \e[1;4;31mTimeSmile and Code\e[m"
 fi
 
 rm status 2> /dev/null
@@ -22,26 +21,31 @@ rm status 2> /dev/null
 Menu(){
 clear
 GetVersion
-echo -e "▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂"
+echo -e "▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂"
 echo -e ""
 echo -e "\e[1;31m    ⬛\e[m     ⬛   ⬛   ⬛ \e[1;31m ⬛▀▀▀▀\e[m⬛  ⬛     ⬛"
 echo -e "\e[1;31m  ⬛⬛⬛ \e[m  ⬛   ⬛   ⬛  ⬛⬛⬛⬛  ⬛     ⬛"
 echo -e "\e[1;31m    ⬛\e[m     ⬛⬛⬛⬛⬛⬛  ⬛    ⬛  ⬛⬛⬛ ⬛⬛⬛"
 echo -e "\e[1;31m          ━═━═━═━═━═━━═━═━═━═━═━═━═━═━═━═━═━═━═━═━\e[m"
-echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
-echo -e "1) Animes   6) Gentoo    11) LOL      16) FakeBlur-MX"
-echo -e "2) Aliens   7) Linux     12) Nature   17) FakeBlur-Jinx"
-echo -e "3) Cars     8) Panorama  13) Girls    18) FakeBlur-No Man's Sky"
-echo -e "4) Arch     9) Surreal   14) Hero     19) Time-Smile"
-echo -e "5) Debian  10) Simple    15) Dice     20) Code"
-echo -e "▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂"
+echo -e "1) Animes     11) LOL            21) Doctor"
+echo -e "2) Aliens     12) Nature         22) Work-Space"
+echo -e "3) Cars       13) Girls      "
+echo -e "4) Arch       14) Hero     "
+echo -e "5) Debian     15) Dice     "
+echo -e "6) Gentoo     16) FakeBlur-1"
+echo -e "7) Linux      17) FakeBlur-2"
+echo -e "8) Panorama   18) FakeBlur-3"
+echo -e "9) Surreal    19) Time-Smile"
+echo -e "10) Simple    20) Code"
+echo -e "▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂"
 echo -e "Restart the session for the effects to be applied."
-echo -e "──────────────────────────────────────────────────────────────"
+echo -e "──────────────────────────────────────────────────────────────────────────────"
 read opc
 
 case $opc in
-	
+
 	1) sed -i 's/l\/.*/l\/Animes\/plus.sh \&/' ~/.profile	;;
 	2) sed -i 's/l\/.*/l\/Aliens\/plus.sh \&/' ~/.profile	;;
 	3) sed -i 's/l\/.*/l\/Cars\/plus.sh \&/' ~/.profile	;;
@@ -62,6 +66,8 @@ case $opc in
    18) sed -i 's/l\/.*/l\/FakeBlur\/fakeblursky.sh \&/' ~/.profile	;;
    19) sed -i 's/l\/.*/l\/TimeSmile\/Smile.sh \&/' ~/.profile	;;
    20) sed -i 's/l\/.*/l\/Code\/Code.sh \&/' ~/.profile	;;
+   21) sed -i 's/l\/.*/l\/Doctor\/Doctor.sh \&/' ~/.profile	;;
+   22) sed -i 's/l\/.*/l\/Work\/Work.sh \&/' ~/.profile	;;
 esac	
 }
 
