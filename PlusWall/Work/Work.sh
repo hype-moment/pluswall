@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 
 GetWmName(){
-
+# get number desktop 
 num=$(wmctrl -m | grep Name | sed 's/.*: //g')
-
-
 
 #### Get workspace herbstluftwm
 if [[ "$num" == herbstluftwm ]]; then
@@ -41,7 +39,7 @@ GetWmName
 
 case $(GetWmName) in
 
-0-|I|1) feh --bg-fill ~/PlusWall/Work/0.png 	;;
+0-|I|1) Zero	;;		
 1-|II|2) feh --bg-fill ~/PlusWall/Work/1.png 	;;
 2-|III|3) feh --bg-fill ~/PlusWall/Work/2.png	;;
 3-|IV|4) feh --bg-fill ~/PlusWall/Work/3.png 	;;
